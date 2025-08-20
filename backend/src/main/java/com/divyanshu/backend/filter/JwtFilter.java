@@ -1,6 +1,6 @@
-package com.hashedin.huspark.filter;
+package com.divyanshu.backend.filter;
 
-import com.hashedin.huspark.service.JwtService;
+import com.divyanshu.backend.service.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

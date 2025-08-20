@@ -1,3 +1,27 @@
+package com.divyanshu.backend.controller;
+import com.divyanshu.backend.dto.UserDto;
+import com.divyanshu.backend.model.Log;
+import com.divyanshu.backend.model.Report;
+import com.divyanshu.backend.model.User;
+import com.divyanshu.backend.service.AuthService;
+import com.divyanshu.backend.service.JwtService;
+import com.divyanshu.backend.service.LogService;
+import com.divyanshu.backend.service.ReportService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.authentication.AuthenticationManager;
+//import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import com.divyanshu.backend.service.UserService;
+
+import java.util.Collections;
+
 @RestController
 @RequestMapping("/api/v1/auth")
 public class AuthController {
@@ -5,32 +29,20 @@ public class AuthController {
 
     @Autowired
     private AuthService authService;
-
-
-
-
     @Autowired
     private AuthenticationManager authenticationManager;
-
-
     @Autowired
     private JwtService jwtService;
-
-
     @Autowired
     private UserDetailsService userDetailsService;
-
-
     @Autowired
     private LogService logService;
-
-
     @Autowired
     private ReportService reportService;
 
 
     @PostMapping("/register")
-    public ResponseEntity<UserDto>  register(@RequestBody User user){
+    public ResponseEntity<UserDto> register(@RequestBody User user){
         Log log = new Log();
 
 

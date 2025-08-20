@@ -1,4 +1,4 @@
-package com.hashedin.huspark.model;
+package com.divyanshu.backend.model;
 
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
@@ -33,18 +33,8 @@ public class SubModule {
     private List<Document> documents = new ArrayList<>();
 
 
-    public int getId() {
-        return id;
-    }
-
-
     public void setId(int id) {
         this.id = id;
-    }
-
-
-    public String getTitle() {
-        return title;
     }
 
 
@@ -53,18 +43,8 @@ public class SubModule {
     }
 
 
-    public Module getModule() {
-        return module;
-    }
-
-
     public void setModule(Module module) {
         this.module = module;
-    }
-
-
-    public List<Document> getDocuments() {
-        return documents;
     }
 
 

@@ -1,8 +1,8 @@
-package com.hashedin.huspark.service;
+package com.divyanshu.backend.service;
 
 
-import com.hashedin.huspark.model.Instructor;
-import com.hashedin.huspark.repository.InstructorRepository;
+import com.divyanshu.backend.model.Instructor;
+import com.divyanshu.backend.repository.InstructorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

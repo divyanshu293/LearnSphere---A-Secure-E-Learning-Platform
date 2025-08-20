@@ -1,7 +1,7 @@
-package com.hashedin.huspark.repository;
+package com.divyanshu.backend.repository;
 
 
-import com.hashedin.huspark.model.Report;
+import com.divyanshu.backend.model.Report;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

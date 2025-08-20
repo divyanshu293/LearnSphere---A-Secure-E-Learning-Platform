@@ -1,4 +1,4 @@
-package com.hashedin.huspark.dao;
+package com.divyanshu.backend.dto;
 
 
 import lombok.Data;

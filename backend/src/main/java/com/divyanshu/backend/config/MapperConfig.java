@@ -1,4 +1,4 @@
-package com.hashedin.huspark.config;
+package com.divyanshu.backend.config;
 
 
 import org.modelmapper.ModelMapper;

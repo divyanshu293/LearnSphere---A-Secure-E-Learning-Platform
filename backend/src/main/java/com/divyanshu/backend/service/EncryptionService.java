@@ -1,4 +1,4 @@
-package com.hashedin.huspark.service;
+package com.divyanshu.backend.service;
 
 
 import org.springframework.stereotype.Service;

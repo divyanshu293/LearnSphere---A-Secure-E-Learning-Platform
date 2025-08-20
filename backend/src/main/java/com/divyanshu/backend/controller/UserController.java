@@ -1,9 +1,9 @@
-package com.hashedin.huspark.controller;
+package com.divyanshu.backend.controller;
 
 
-import com.hashedin.huspark.dao.UserDto;
-import com.hashedin.huspark.model.User;
-import com.hashedin.huspark.service.UserService;
+import com.divyanshu.backend.dto.UserDto;
+import com.divyanshu.backend.model.User;
+import com.divyanshu.backend.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

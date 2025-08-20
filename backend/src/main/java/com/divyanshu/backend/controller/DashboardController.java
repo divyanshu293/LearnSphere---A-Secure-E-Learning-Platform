@@ -1,10 +1,10 @@
-package com.hashedin.huspark.controller;
+package com.divyanshu.backend.controller;
 
 
 
 
-import com.hashedin.huspark.model.Metrics;
-import com.hashedin.huspark.service.DashboardService;
+import com.divyanshu.backend.model.Metrics;
+import com.divyanshu.backend.service.DashboardService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

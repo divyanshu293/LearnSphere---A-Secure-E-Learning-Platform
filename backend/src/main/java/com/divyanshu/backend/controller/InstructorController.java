@@ -1,13 +1,13 @@
-package com.hashedin.huspark.controller;
+package com.divyanshu.backend.controller;
 
 
-import com.hashedin.huspark.Exception.NotFoundException;
-import com.hashedin.huspark.model.Instructor;
-import com.hashedin.huspark.model.Role;
-import com.hashedin.huspark.model.User;
-import com.hashedin.huspark.repository.InstructorRepository;
-import com.hashedin.huspark.repository.UserRepository;
-import com.hashedin.huspark.service.InstructorService;
+import com.divyanshu.backend.Exception.NotFoundException;
+import com.divyanshu.backend.model.Instructor;
+import com.divyanshu.backend.model.Role;
+import com.divyanshu.backend.model.User;
+import com.divyanshu.backend.repository.InstructorRepository;
+import com.divyanshu.backend.repository.UserRepository;
+import com.divyanshu.backend.service.InstructorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

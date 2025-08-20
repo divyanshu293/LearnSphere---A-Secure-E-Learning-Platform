@@ -1,8 +1,8 @@
-package com.hashedin.huspark.service;
+package com.divyanshu.backend.service;
 
 
-import com.hashedin.huspark.model.Log;
-import com.hashedin.huspark.repository.LogRepository;
+import com.divyanshu.backend.model.Log;
+import com.divyanshu.backend.repository.LogRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -30,8 +30,7 @@ public class LogService {
 
 
     public Log saveLog(Log log) {
-        Log log1 = logRepository.save(log);
-        return log1;
+        return logRepository.save(log);
 
 
     }

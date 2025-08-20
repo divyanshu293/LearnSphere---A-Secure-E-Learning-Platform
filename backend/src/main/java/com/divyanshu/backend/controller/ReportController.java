@@ -1,8 +1,8 @@
-package com.hashedin.huspark.controller;
+package com.divyanshu.backend.controller;
 
 
-import com.hashedin.huspark.model.Report;
-import com.hashedin.huspark.service.ReportService;
+import com.divyanshu.backend.model.Report;
+import com.divyanshu.backend.service.ReportService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

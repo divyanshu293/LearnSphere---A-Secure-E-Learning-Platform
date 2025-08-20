@@ -1,14 +1,14 @@
-package com.hashedin.huspark.controller;
+package com.divyanshu.backend.controller;
 
 
-import com.hashedin.huspark.model.Log;
-import com.hashedin.huspark.model.Module;
-import com.hashedin.huspark.model.Report;
-import com.hashedin.huspark.model.User;
-import com.hashedin.huspark.service.AuthenticatedUserService;
-import com.hashedin.huspark.service.LogService;
-import com.hashedin.huspark.service.ModuleService;
-import com.hashedin.huspark.service.ReportService;
+import com.divyanshu.backend.model.Log;
+import com.divyanshu.backend.model.Module;
+import com.divyanshu.backend.model.Report;
+import com.divyanshu.backend.model.User;
+import com.divyanshu.backend.service.AuthenticatedUserService;
+import com.divyanshu.backend.service.LogService;
+import com.divyanshu.backend.service.ModuleService;
+import com.divyanshu.backend.service.ReportService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;

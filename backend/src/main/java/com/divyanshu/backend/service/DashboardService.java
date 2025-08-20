@@ -1,10 +1,10 @@
-package com.hashedin.huspark.service;
+package com.divyanshu.backend.service;
 
 
-import com.hashedin.huspark.model.Metrics;
-import com.hashedin.huspark.repository.CourseRepository;
-import com.hashedin.huspark.repository.DocumentRepository;
-import com.hashedin.huspark.repository.UserRepository;
+import com.divyanshu.backend.model.Metrics;
+import com.divyanshu.backend.repository.CourseRepository;
+import com.divyanshu.backend.repository.DocumentRepository;
+import com.divyanshu.backend.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

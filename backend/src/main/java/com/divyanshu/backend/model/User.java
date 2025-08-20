@@ -1,4 +1,4 @@
-package com.hashedin.huspark.model;
+package com.divyanshu.backend.model;
 
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
@@ -38,59 +38,19 @@ public class User {
     private Role role;
 
 
-    @OneToMany(mappedBy = "user",cascade = CascadeType.ALL , fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Log> logs = new ArrayList<>();
 
 
-    @OneToMany(mappedBy = "user",cascade = CascadeType.ALL , fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Course> courses = new ArrayList<>();
 
 
-    @OneToOne(mappedBy = "user" , cascade = CascadeType.ALL  )
+    @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
     private Instructor instructor;
 
-
-    public List<Log> getLogs() {
-        return logs;
-    }
-
-
-    public void setLogs(List<Log> logs) {
-        this.logs = logs;
-    }
-
-
-    public int getId() {
-        return id;
-    }
-
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-
-
-
-    public String getPswrd() {
-        return pswrd;
-    }
-
-
-    public void setPswrd(String pswrd) {
-        this.pswrd = pswrd;
-    }
-
-
-    public Role getRole() {
-        return role;
-    }
-    public void setRole(Role role) {
-        this.role = role;
-    }
 }
+
+
+
+

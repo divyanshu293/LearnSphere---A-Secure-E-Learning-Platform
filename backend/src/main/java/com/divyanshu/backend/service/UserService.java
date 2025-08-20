@@ -1,13 +1,13 @@
-package com.hashedin.huspark.service;
+package com.divyanshu.backend.service;
 
 
-import com.hashedin.huspark.Exception.NotFoundException;
-import com.hashedin.huspark.dao.UserDto;
-import com.hashedin.huspark.model.Course;
-import com.hashedin.huspark.model.Module;
-import com.hashedin.huspark.model.User;
-import com.hashedin.huspark.repository.CourseRepository;
-import com.hashedin.huspark.repository.UserRepository;
+import com.divyanshu.backend.Exception.NotFoundException;
+import com.divyanshu.backend.dto.UserDto;
+import com.divyanshu.backend.model.Course;
+import com.divyanshu.backend.model.Module;
+import com.divyanshu.backend.model.User;
+import com.divyanshu.backend.repository.CourseRepository;
+import com.divyanshu.backend.repository.UserRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

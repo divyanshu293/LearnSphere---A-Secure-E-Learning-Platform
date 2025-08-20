@@ -1,4 +1,4 @@
-package com.hashedin.huspark.constants;
+package com.divyanshu.backend.constants;
 
 
 public class ApplicationConstants {

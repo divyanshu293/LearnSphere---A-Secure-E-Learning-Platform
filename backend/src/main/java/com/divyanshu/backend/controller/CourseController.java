@@ -1,3 +1,20 @@
+package com.divyanshu.backend.controller;
+
+import com.divyanshu.backend.dto.CourseDto;
+import com.divyanshu.backend.model.Course;
+import com.divyanshu.backend.model.Log;
+import com.divyanshu.backend.model.Report;
+import com.divyanshu.backend.model.User;
+import com.divyanshu.backend.service.AuthenticatedUserService;
+import com.divyanshu.backend.service.CourseService;
+import com.divyanshu.backend.service.LogService;
+import com.divyanshu.backend.service.ReportService;
+import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
 @RestController
 @RequestMapping("/api/v1/course")
 public class CourseController {

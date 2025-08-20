@@ -1,7 +1,7 @@
-package com.hashedin.huspark.service;
+package com.divyanshu.backend.service;
 
 
-import com.hashedin.huspark.model.User;
+import com.divyanshu.backend.model.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

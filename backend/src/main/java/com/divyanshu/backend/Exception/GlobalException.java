@@ -1,4 +1,4 @@
-package com.hashedin.huspark.Exception;
+package com.divyanshu.backend.Exception;
 
 
 import org.springframework.http.HttpStatus;

@@ -1,8 +1,14 @@
-import com.hashedin.huspark.model.User;
-import com.hashedin.huspark.service.AuthenticatedUserService;
-import com.hashedin.huspark.service.DocumentService;
-import com.hashedin.huspark.service.LogService;
-import com.hashedin.huspark.service.ReportService;
+package com.divyanshu.backend.controller;
+
+import com.divyanshu.backend.dto.DocumentDto;
+import com.divyanshu.backend.model.Document;
+import com.divyanshu.backend.model.Log;
+import com.divyanshu.backend.model.Report;
+import com.divyanshu.backend.model.User;
+import com.divyanshu.backend.service.AuthenticatedUserService;
+import com.divyanshu.backend.service.DocumentService;
+import com.divyanshu.backend.service.LogService;
+import com.divyanshu.backend.service.ReportService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -34,13 +40,13 @@ public class DocManagementController {
 
 
     @PostMapping("/add/{subModuleId}")
-    private ResponseEntity<DocumentDto> addDocument(@RequestParam("file") MultipartFile file,@PathVariable int subModuleId) throws  Exception{
+    private ResponseEntity<DocumentDto> addDocument(@RequestParam("file") MultipartFile file, @PathVariable int subModuleId) throws  Exception{
         return ResponseEntity.ok(documentService.addDocumentFile(file,subModuleId));
     }
 
 
     @PutMapping("/edit/{documentId}")
-    private ResponseEntity<Document> editDocument(@PathVariable int documentId,@RequestParam("file") MultipartFile file ) throws Exception{
+    private ResponseEntity<Document> editDocument(@PathVariable int documentId, @RequestParam("file") MultipartFile file ) throws Exception{
         User tempUser = authenticatedUserService.getAuthenticatedUser();
 
 

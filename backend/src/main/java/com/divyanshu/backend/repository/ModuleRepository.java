@@ -1,7 +1,7 @@
-package com.hashedin.huspark.repository;
+package com.divyanshu.backend.repository;
 
 
-import com.hashedin.huspark.model.Module;
+import com.divyanshu.backend.model.Module;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

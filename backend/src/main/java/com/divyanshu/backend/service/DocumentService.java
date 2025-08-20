@@ -1,10 +1,10 @@
-package com.hashedin.huspark.service;
-import com.hashedin.huspark.Exception.NotFoundException;
-import com.hashedin.huspark.dao.DocumentDto;
-import com.hashedin.huspark.model.Document;
-import com.hashedin.huspark.model.SubModule;
-import com.hashedin.huspark.repository.DocumentRepository;
-import com.hashedin.huspark.repository.SubModuleRepository;
+package com.divyanshu.backend.service;
+import com.divyanshu.backend.Exception.NotFoundException;
+import com.divyanshu.backend.dto.DocumentDto;
+import com.divyanshu.backend.model.Document;
+import com.divyanshu.backend.model.SubModule;
+import com.divyanshu.backend.repository.DocumentRepository;
+import com.divyanshu.backend.repository.SubModuleRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -42,7 +42,7 @@ public class DocumentService {
 
 
     @Autowired
-    private  EncryptionService encryptionService;
+    private com.divyanshu.backend.service.EncryptionService encryptionService;
 
 
     public DocumentDto addDocumentFile(MultipartFile file, int subModuleId) throws Exception {

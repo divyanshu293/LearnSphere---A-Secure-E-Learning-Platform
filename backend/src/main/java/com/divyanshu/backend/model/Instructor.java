@@ -1,4 +1,4 @@
-package com.hashedin.huspark.model;
+package com.divyanshu.backend.model;
 
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;

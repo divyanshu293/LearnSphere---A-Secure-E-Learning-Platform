@@ -1,11 +1,11 @@
-package com.hashedin.huspark.service;
+package com.divyanshu.backend.service;
 
 
-import com.hashedin.huspark.Exception.NotFoundException;
-import com.hashedin.huspark.model.Course;
-import com.hashedin.huspark.model.Module;
-import com.hashedin.huspark.repository.CourseRepository;
-import com.hashedin.huspark.repository.ModuleRepository;
+import com.divyanshu.backend.Exception.NotFoundException;
+import com.divyanshu.backend.model.Course;
+import com.divyanshu.backend.model.Module;
+import com.divyanshu.backend.repository.CourseRepository;
+import com.divyanshu.backend.repository.ModuleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

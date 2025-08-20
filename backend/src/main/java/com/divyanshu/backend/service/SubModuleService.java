@@ -1,11 +1,11 @@
-package com.hashedin.huspark.service;
+package com.divyanshu.backend.service;
 
 
-import com.hashedin.huspark.Exception.NotFoundException;
-import com.hashedin.huspark.model.SubModule;
-import com.hashedin.huspark.model.Module;
-import com.hashedin.huspark.repository.ModuleRepository;
-import com.hashedin.huspark.repository.SubModuleRepository;
+import com.divyanshu.backend.Exception.NotFoundException;
+import com.divyanshu.backend.model.SubModule;
+import com.divyanshu.backend.model.Module;
+import com.divyanshu.backend.repository.ModuleRepository;
+import com.divyanshu.backend.repository.SubModuleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

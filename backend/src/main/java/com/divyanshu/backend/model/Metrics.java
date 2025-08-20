@@ -1,4 +1,4 @@
-package com.hashedin.huspark.model;
+package com.divyanshu.backend.model;
 
 
 public class Metrics {

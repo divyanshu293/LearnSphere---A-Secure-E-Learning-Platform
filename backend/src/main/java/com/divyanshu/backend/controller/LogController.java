@@ -1,8 +1,8 @@
-package com.hashedin.huspark.controller;
+package com.divyanshu.backend.controller;
 
 
-import com.hashedin.huspark.model.Log;
-import com.hashedin.huspark.service.LogService;
+import com.divyanshu.backend.model.Log;
+import com.divyanshu.backend.service.LogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
